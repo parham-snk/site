@@ -3,7 +3,7 @@ const router = exp.Router()
 
 
 router.get("/", (req, res) => {
-    res.end("welcome")
+    res.redirect("/public/html/index.html")
 })
 
 router.get('/s',(req,res)=>{
